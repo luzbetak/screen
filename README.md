@@ -16,7 +16,7 @@ logfile "$HOME/var/log/screen/%Y%m%d-%t"
 hardstatus alwayslastline
 backtick 101    999999  999999  perl -e 'print( join q[.], (split /\./, $ENV{HOSTNAME})[0..1] );'
 
-### Redhat see http://magazine.redhat.com/2007/09/27/a-guide-to-gnu-screen/
+### Redhat Screen Configuration 
 hardstatus string '%{= kG}[ %{G}%101` %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y%m%d %{W}%c %{g}]'
 
 ### vi .screenrc-windows-default
